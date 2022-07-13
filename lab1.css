@@ -1,0 +1,43 @@
+.header{
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    font-family: 'trirong', sans-serif;
+    text-transform: uppercase;
+}
+.line{
+    margin: 10px auto 30px auto;
+    height: 3px;
+    border: 0;
+    background: orange;
+    width: 150px;
+}
+.intro{
+    margin: auto;
+    width: 70%;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'trirong', sans-serif;
+}
+.body{
+    margin: 20px auto 0px auto;
+    display: flex;
+    width: 70%;
+    text-align: justify;
+    font-family: 'trirong', sans-serif;
+}
+.year{
+    margin: 25px;
+}
+.minute{
+    margin: 25px;
+}
+.organic{
+    margin: 25px;
+}
+.anything{
+    margin: 25px;
+}
+h2{
+    font-size: 18px;
+}
