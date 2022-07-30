@@ -1,0 +1,63 @@
+input {
+    display: block;
+    border: 2px solid rgb(243, 71, 177);
+    border-radius: 10px;
+    height: 40px;
+    font-size: 15px;
+    margin: 15px;
+}
+.form {
+    color: red;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./public/background.png');
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btn {
+    margin-top: 24px;
+    background-color: rgb(119, 17, 145);
+    color: wheat;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 20px;
+}   
+.h1 {
+    text-align: center;
+}
+.p {
+    text-align: center;
+}
+.btnkp {
+    margin-top: 24px;
+    background-color: rgb(255, 1, 192);
+    color: black;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 25px;
+    width: 300px;
+}
+.btnkt {
+    margin-top: 25px;
+    background-color: #f8089cf8;
+    color: black;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 25px; 
+}
+.btnx {
+    margin-top: 25px;
+    background-color: rgb(255, 0, 149);
+    color: black;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+}
