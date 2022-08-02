@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <header class="time">
+        <div>
+            <span id="hours"></span>
+            <span id="minutes"></span>
+            <span id="second"></span>
+        </div>
+        <div>
+            <span id="day"></span>
+            <span id="month"></span>
+            <span id="year"></span>
+        </div>
+    </header>
     <div class="form background">
         <form action="">
             <div>
@@ -18,9 +30,38 @@
                 <label for="">Tuổi</label>
                 <input type="number" id="age" placeholder="Nhập Số Tuổi">
             </div>
-            <button class="btn">Gửi</button>
+                            <button class="btn">Gửi</button>
         </form>
     </div>
+    <script>
+        setInterval(() => {
+    var date = new Date();
+    var day = date.getDate();
+    var month = date.getMonth() + 1;
+    var year = date.getFullYear();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var second = date.getSeconds();
+    if(document.getElementById('day')){
+        document.getElementById('day').innerHTML = day;
+    }
+    if(document.getElementById('month')){
+        document.getElementById('month').innerHTML = month;
+    }
+    if(document.getElementById('year')){
+        document.getElementById('year').innerHTML = year;
+    }
+    if(document.getElementById('hours')){
+        document.getElementById('hours').innerHTML = hours;
+    }
+    if(document.getElementById('minutes')){
+        document.getElementById('minutes').innerHTML = minutes;
+    }
+    if(document.getElementById('second')){
+        document.getElementById('second').innerHTML = second;
+    }
     
+}, 1000)
+    </script>
 </body>
 </html>

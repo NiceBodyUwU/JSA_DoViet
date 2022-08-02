@@ -1,63 +1,108 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    margin: 0px;
+}
+
 input {
     display: block;
-    border: 2px solid rgb(243, 71, 177);
-    border-radius: 10px;
+    width: 100%;
+    border: 1px solid rgb(255, 197, 0);
+    border-radius: 8px;
     height: 40px;
     font-size: 15px;
-    margin: 15px;
+    color: #1b3815;
+    line-height: 1.2;
+    margin: 1rem;
 }
 .form {
-    color: red;
+    color: white;
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./public/background.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://img.uhdpaper.com/wallpaper/night-sky-stars-lake-bridge-new-zealand-553@0@f-preview.jpg?dl);
     height: 650px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .btn {
-    margin-top: 24px;
-    background-color: rgb(119, 17, 145);
-    color: wheat;
-    border-radius: 10px;
-    width: 200px;
-    font-size: 20px;
+   margin-top: 24px;
+    background-color: rgb(255, 197, 0);
+    border: transparent;
+    color: rgb(72, 72, 72);
+    border-radius: 8px;
+    padding: 0.2rem;
+    width: 250px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;   
 }   
 .h1 {
     text-align: center;
+    color: white;
 }
 .p {
     text-align: center;
+    color: white;
 }
 .btnkp {
     margin-top: 24px;
-    background-color: rgb(255, 1, 192);
-    color: black;
-    border-radius: 10px;
-    padding: 25px;
-    font-size: 25px;
+    background-color: rgb(255, 197, 0);
+    border: transparent;
+    color: rgb(72, 72, 72);
+    border-radius: 8px;
+    padding: 24px;
+    font-size: 24px;
     width: 300px;
+    font-weight: bold;
+    cursor: pointer;
 }
 .btnkt {
-    margin-top: 25px;
-    background-color: #f8089cf8;
-    color: black;
-    border-radius: 10px;
+    margin-top: 24px;
+    background-color: #1890ff;
+    border: transparent;
+    color: white;
+    border-radius: 8px;
     width: 300px;
-    height: 50px;
-    font-size: 25px; 
+    height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;   
 }
 .btnx {
-    margin-top: 25px;
-    background-color: rgb(255, 0, 149);
-    color: black;
-    border-radius: 10px;
+    margin-top: 24px;
+    background-color: red;
+    border: transparent;
+    color: white;
+    border-radius: 8px;
     width: 300px;
-    height: 50px;
-    font-size: 25px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;   
+}
+.pic {
+    line-height: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . ."
+      ". . . .";
+}
+.pic img {
+    line-height: 0;
+    width: 100%;
+}
+.time {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
 }

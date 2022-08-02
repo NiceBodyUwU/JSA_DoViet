@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>Bài kiểm tra buổi 4</title>
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <header class="time">
+        <div>
+            <span id="hours"></span>
+            <span id="minutes"></span>
+            <span id="second"></span>
+        </div>
+        <div>
+            <span id="day"></span>
+            <span id="month"></span>
+            <span id="year"></span>
+        </div>
+    </header>
     <div class="background">
         <br>
         <br>
@@ -19,7 +31,7 @@
         Điều kiện sống chất lượng với nhiều ưu điểm nổi bật
     </p>
     <div class="form">
-        <button class="btnkp">Bạn muốn khám phá</button>
+        <a href="form.html"><button class="btnkp" >Bạn muốn khám phá</button></a>
     </div>
     <div class="form">
         <button class="btnkt">Kiểm tra thông tin</button>
@@ -28,6 +40,48 @@
         <button class="btnx">Xóa thông tin</button>
     </div>
     </div>
-   
+   <div class="pic">
+    <img src="https://khuchieunghi.github.io/JSA03-khuchieunghi/public/1.jpeg" alt="">
+    <img src="https://khuchieunghi.github.io/JSA03-khuchieunghi/public/2.jpeg" alt="">
+    <img src="https://khuchieunghi.github.io/JSA03-khuchieunghi/public/3.jpeg" alt="">
+    <img src="https://khuchieunghi.github.io/JSA03-khuchieunghi/public/4.jpeg" alt="">
+    <img src="https://khuchieunghi.github.io/JSA03-khuchieunghi/public/5.jpeg" alt="">
+    <img src="https://khuchieunghi.github.io/JSA03-khuchieunghi/public/6.jpeg" alt="">
+    <img src="https://khuchieunghi.github.io/JSA03-khuchieunghi/public/7.jpeg" alt="">
+    <img src="https://khuchieunghi.github.io/JSA03-khuchieunghi/public/8.jpeg" alt="">
+   </div>
+
+   <script>
+        
+        setInterval(() => {
+    var date = new Date();
+    var day = date.getDate();
+    var month = date.getMonth() + 1;
+    var year = date.getFullYear();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var second = date.getSeconds();
+    if(document.getElementById('day')){
+        document.getElementById('day').innerHTML = day;
+    }
+    if(document.getElementById('month')){
+        document.getElementById('month').innerHTML = month;
+    }
+    if(document.getElementById('year')){
+        document.getElementById('year').innerHTML = year;
+    }
+    if(document.getElementById('hours')){
+        document.getElementById('hours').innerHTML = hours;
+    }
+    if(document.getElementById('minutes')){
+        document.getElementById('minutes').innerHTML = minutes;
+    }
+    if(document.getElementById('second')){
+        document.getElementById('second').innerHTML = second;
+    }
+    
+}, 1000)
+   </script>
 </body>
+
 </html>
