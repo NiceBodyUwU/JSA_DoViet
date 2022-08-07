@@ -34,10 +34,10 @@
         <a href="form.html"><button class="btnkp" >Bạn muốn khám phá</button></a>
     </div>
     <div class="form">
-        <button class="btnkt">Kiểm tra thông tin</button>
+        <button class="btnkt" onclick="myFunction2()">Kiểm tra thông tin</button>
     </div>
     <div class="form">
-        <button class="btnx">Xóa thông tin</button>
+        <button class="btnx" onclick="myFunction1()">Xóa thông tin</button>
     </div>
     </div>
    <div class="pic">
@@ -52,7 +52,18 @@
    </div>
 
    <script>
-        
+        function myFunction1(){
+            localStorage.clear()
+        }
+        function myFunction2(){
+            let name = localStorage.getItem("name")
+            let age = localStorage.getItem("age")
+            if(name && age){
+                alert("Name:"+name+"Age:"+age)
+            }else{
+                alert("Không có thông tin")
+            }
+        }
         setInterval(() => {
     var date = new Date();
     var day = date.getDate();
