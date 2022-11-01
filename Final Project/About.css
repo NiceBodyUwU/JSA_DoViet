@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background: rgba(7, 6, 39, 1);
+    background-size: cover;
+}
+.smallbar{
+    display: flex;
+    margin-left: 160px;
+}
+li{
+    margin: 30px;
+    display: flex;
+    position: relative;
+    right: -400px;
+}
+a{
+    font-size: 20px;
+    color: darkgray;
+}
+.navbar a:hover{
+    color: pink;
+}
+.footer-basic {
+    padding:40px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+  }
+ 
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  .body{
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    position: relative;
+    left: -100px;
+    
+}
+.text{
+    font-size: 40px;
+    color: wheat;
+}
+.btn1{
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.btn1:hover{
+    color: red;
+    cursor: pointer;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://www.publicdomainpictures.net/pictures/50000/nahled/running-in-dawn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
+
+}
+.about1{
+  padding: 100px;
+  color: wheat;
+  border: solid red;
+  border-radius: 10px;
+}
+.about2{
+  padding: 100px;
+  color: wheat;
+  border: solid pink;
+  border-radius: 10px;
+}
+.about3{
+  padding: 100px;
+  color: wheat;
+  border: solid yellow;
+  border-radius: 10px;
+}
+.about-background{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://img.freepik.com/free-vector/yellow-background-with-halftone-lines-design_1017-30148.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

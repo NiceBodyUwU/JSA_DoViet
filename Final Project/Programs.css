@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background: rgba(7, 6, 39, 1);
+    background-size: cover;
+}
+.smallbar{
+    display: flex;
+    margin-left: 160px;
+    position: relative;
+    right: 400px;
+}
+li{
+    margin: 30px;
+    display: flex;
+    position: relative;
+    right: -400px;
+}
+a{
+    font-size: 20px;
+    color: darkgray;
+}
+.navbar a:hover{
+    color: pink;
+}
+.footer-basic {
+    padding:40px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+  }
+ 
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  .body{
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    position: relative;
+    left: -100px;
+    
+}
+.text{
+    font-size: 40px;
+    color: wheat;
+    position: relative;
+    top: 70px;
+}
+.btn1{
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.btn1:hover{
+    color: red;
+    cursor: pointer;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(https://www.elmhurst.edu/wp-content/uploads/2020/11/program-management-vs-project-management-illustration.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.breath {
+    color: black;
+}
+.nice{
+    border: solid white;
+    border-radius: 20px;
+}
+
+.sleep {
+  padding: 200px 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(https://images.theconversation.com/files/427950/original/file-20211022-13-1yw1v30.jpeg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: wheat;
+}
+.eat {
+  padding: 200px 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(  https://i.guim.co.uk/img/media/d143e03bccd1150ef52b8b6abd7f3e46885ea1b3/0_182_5472_3283/master/5472.jpg?width=1200&quality=85&auto=format&fit=max&s=d5a74a011c3fef1ad9c1c962721d221d);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: wheat;
+}
+.breath-info {
+  padding: 200px 400px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(https://www.undp.org/sites/g/files/zskgke326/files/migration/cn/UNDP-CH-Why-Humanity-Must-Save-Nature-To-Save-Itself.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: wheat;
+}

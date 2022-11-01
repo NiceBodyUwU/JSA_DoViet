@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="nav-bar">
+        <ul class="navbar">
+                   <img src="" alt="">
+                   <div class="smallbar">
+                       <li>
+                           <a href="Homepage1.html">Home Page</a>
+                       </li>
+                       <li>
+                           <a href="About.html">About</a>
+                       </li>
+                       <li>
+                           <a href="Programs.html">Programs</a>
+                       </li>
+                       <li>
+                           <a href="Staffs.html">Staffs</a>
+                       </li>
+                       <li>
+                           <a href="#contact">Contact Us</a>
+                       </li>
+                   </div>
+               </ul>
+               </div>
+  
+    <div class="content-wrapper">
+        <div class="content">
+            <div class="signup-wrapper shadow-box">
+                <div class="company-details ">
+                  
+                    <div class="shadow"></div>
+                    <div class="wrapper-1">
+                        <div class="logo">
+       <div class="icon-food">
+         
+                    </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="signup-form ">
+                    <div class="wrapper-2">
+                        <div class="form-title">Sign Up</div>
+                        <div class="form">
+                            <form>
+                                <p class="content-item">
+                                    <label>full name
+                                        <input type="text" placeholder="Name" id="name" required>
+                                    </label>
+                                </p>
+
+                                <p class="content-item">
+                                    <label>email address
+                                        <input type="text"  placeholder="Email" name="email" id="email" required>
+                                    </label>
+                                </p>
+
+                                <p class="content-item">
+
+                                    <label>password
+                                        <input type="password" placeholder="*****" name="psw" id="psw" required>
+                                    </label>
+                                </p>
+
+
+                                <button type="submit"  class="signup" onclick="signup()">Sign Up</button>
+                                <a href="login.html" class="login">login</a>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-youtube"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            <p class="copyright">Do Viet © 2022</p>
+        </footer>
+    </div>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+
+
+
+    <script>
+        function signup() {
+           var uwu = localStorage.getItem("User Name")
+           if(uwu.value == document.getElementById("name".value)){
+            alert("User Name Had Already Been Registered")
+            return;
+           }
+           var owo = localStorage.getItem("Email")
+           if(owo.value == document.getElementById("email".value)){
+            alert("Email Had Already Been Registered")
+            return
+           }
+            localStorage.setItem("User Name",document.getElementById("name").value)
+            localStorage.setItem("Email",document.getElementById("email").value)
+            localStorage.setItem("password",document.getElementById("psw").value)
+
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background: rgba(7, 6, 39, 1);
+    background-size: cover;
+}
+.smallbar{
+    display: flex;
+    margin-left: 160px;
+}
+li{
+    margin: 30px;
+    display: flex;
+    position: relative;
+    right: -400px;
+}
+a{
+    font-size: 20px;
+    color: darkgray;
+}
+.navbar a:hover{
+    color: pink;
+}
+.footer-basic {
+    padding:40px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+  }
+ 
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  .body{
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    position: relative;
+    left: -100px;
+    
+}
+.background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(    https://www.tourismtribe.com/wp-content/uploads/image00-3-768x576.png    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    font-size: 40px;
+    color: wheat;
+    position: relative;
+    top: 70px;
+}
+.nn{
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 50px;
+}
+.nobita {
+    background-image: url(https://img.rawpixel.com/private/static/images/website/2022-05/pf-s124-ak-2615_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c77077de245e55401603da8711ee87a7);
+    display: flex;
+    padding: 100px;
+    border-bottom: solid;
+    border-top: solid;
+}
+.jj {
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px;
+}
+.joey{
+    background-image: url(https://img.rawpixel.com/private/static/images/website/2022-05/pf-s124-ak-2615_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c77077de245e55401603da8711ee87a7);
+    display: flex;
+    padding: 100px;
+    border-bottom: solid;
+    border-top: solid;
+}
+.bb{
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px;
+}
+.budimir {
+    background-image: url(https://img.rawpixel.com/private/static/images/website/2022-05/pf-s124-ak-2615_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c77077de245e55401603da8711ee87a7);
+    display: flex;
+    padding: 100px;
+    border-bottom: solid;
+    border-top: solid;
+}
